@@ -29,7 +29,3 @@ Tutorial 2 chapters:
 * `conda` on Linux or macOS (LHAPDF comes from conda-forge) and basic Python.
 * Claude Code, to run the agent. No API key is needed.
 * The CT18NNLO set and CT25NNLO can be found in the [CTEQ-TEA-Official-website](https://cteq-tea.gitlab.io/project/00pdfs/).
-
-## How the code was checked
-
-Every code block in both tutorials is generated from working files, and following the tutorials literally, in order, reproduces those files. They were run with LHAPDF 6.5.6 and Python 3.11 on the real CT18NNLO and CT25NNLO sets, and the 21 tests of tutorial 2 pass. The launcher was tested with a stand-in for the agent. No live Claude Code session was recorded: the transcripts in the tutorials are marked as illustrative.
